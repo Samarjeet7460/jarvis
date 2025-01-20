@@ -12,7 +12,7 @@ import time
 from googletrans import Translator
 import google.generativeai as genai
 
-API_KEY = "AIzaSyBnWc8zQQqtYwi-60Ubo_ZUuOJGwEaWZcI"
+API_KEY = "YOUR-API-KEY"
 
 def initialize_tts_engine():
     engine = pyttsx3.init("sapi5")
